@@ -1,0 +1,17 @@
+package com.example.android3homework3.network;
+
+
+
+import com.example.android3homework3.network.model.PixabayResponse;
+
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Query;
+
+public interface PixabyApi {
+    @GET("/api?key=25686965-0239caa31958b6bb6157f5e9b")
+    Call<PixabayResponse> getImage(@Query("q")String keyWord );
+
+
+
+}
