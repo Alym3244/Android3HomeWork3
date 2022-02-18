@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface PixabyApi {
-    @GET("/api?key=25686965-0239caa31958b6bb6157f5e9b")
+    @GET("/api?key=25767702-174d96176f04a908f9632dcc9")
     Call<PixabayResponse> getImage(@Query("q")String keyWord );
 
 
